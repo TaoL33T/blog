@@ -1,0 +1,77 @@
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 16 16"
+   xml:space="preserve"
+   sodipodi:docname="twitch.svg"
+   width="2800"
+   height="2800"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><defs
+   id="defs68" /><sodipodi:namedview
+   id="namedview66"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showgrid="false"
+   inkscape:zoom="0.31"
+   inkscape:cx="1229.0323"
+   inkscape:cy="1383.871"
+   inkscape:window-width="1920"
+   inkscape:window-height="1030"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<style
+   type="text/css"
+   id="style52">
+	.st0{fill:#FFFFFF;}
+</style>
+<title
+   id="title54">Asset 3</title>
+<g
+   id="g63"
+   style="fill:#cccccc"
+   transform="translate(200)">
+	<g
+   id="Layer_1-2"
+   style="fill:#cccccc">
+		<path
+   class="st0"
+   d="M 500,0 0,500 v 1800 h 600 v 500 l 500,-500 h 400 l 900,-900 V 0 Z m 1700,1300 -400,400 h -400 l -350,350 V 1700 H 600 V 200 h 1600 z"
+   id="path56"
+   style="fill:#cccccc" />
+		<rect
+   x="1700"
+   y="550"
+   class="st0"
+   width="200"
+   height="600"
+   id="rect58"
+   style="fill:#cccccc" />
+		<rect
+   x="1150"
+   y="550"
+   class="st0"
+   width="200"
+   height="600"
+   id="rect60"
+   style="fill:#cccccc" />
+	</g>
+</g>
+<metadata
+   id="metadata324"><rdf:RDF><cc:Work
+       rdf:about=""><dc:title>Asset 3</dc:title></cc:Work></rdf:RDF></metadata></svg>
