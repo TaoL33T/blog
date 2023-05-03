@@ -4,6 +4,11 @@ title:  "Welcome to Jekyll!"
 date:   2023-05-02 10:18:52 +0200
 categories: jekyll update
 ---
+
+Just for lolz, I left this artice in here.
+Yes, I updated my blog to use Jekyll now.
+Config and content is localed [here](https://github.com/MaidLucy/blog).
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:

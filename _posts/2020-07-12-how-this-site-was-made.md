@@ -1,10 +1,22 @@
 ---
 layout: post
-title: How this site was made
+title: How this site was made (old)
 date: 2020-07-12 00:00:00 +0200
 description: I was pissed by wordpress. Like, really really pissed. It was just all too much. All I wanted was a nice website where I could put markdown files in and out would come posts. So I started to think about creating my own.
 ---
 
+
+<h3 style="color: red; margin-bottom: 2px;"> Disclaimer! </h3>
+<div style="border: 3px solid red; font-style: italic; padding: 10px;">
+<p>
+Everything you read here is about the previous version of this site.
+It is now generated and managed using Jekyll.
+Find out more about it <a href="{{ "/about.html" | absolute_url }}">on the about page</a>.
+</p>
+
+Now, let's move on with the actual artice:
+</div>
+<br>
 
 I was pissed by wordpress.
 Like, really really pissed.
