@@ -15,6 +15,10 @@ My name is Lucy and I like to play around with software and hardware.
 I don't like Windows and try to avoid closed source software as much as possible because I can't play with it.
 Also, I am very much interested in networking and trains.
 
+Oh and I reaaaally like cat girls! Nya~ 💕
+
+![neko maid nya]({{ "/assets/img/kuroneko-cat-maid.gif" | absolute_url }})
+
 ## Social / Internet Presence
 
 You can find me on these platforms:
