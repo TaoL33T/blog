@@ -11,4 +11,4 @@ I like transportation, networking and Linux! Sometimes I also [stream on Twitch]
 This is my blog >ω< <br>
 Enjoy your stay. Nya~ 💕
 
-Here is a list of all the posts: <br>
+Here is a list of all the posts:
