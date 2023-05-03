@@ -12,7 +12,8 @@ description: >
 
 # Build settings
 
-#theme: minima
+exclude:
+  - convert-date.sh
 
 plugins:
   - jekyll-feed
