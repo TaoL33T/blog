@@ -17,7 +17,7 @@
 .site-nav {
   background-color: $brand-color-dark;
   // border: 1px solid $site-title-color;
-  border: 0;
+  border: none;
   .menu-icon {
     > svg path {
         fill: $site-title-color;
@@ -27,4 +27,80 @@
 
 table {
   border: 0;
+}
+
+#cookie-notice {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: none; // this is because it is set properly in the javascript
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  width: calc(100vw - 2rem);
+  background-color: $brand-color-dark;
+  font-weight: 600;
+  color: $site-title-color;
+  button {
+    border: 2px solid $site-title-color;
+    font-weight: 600;
+    background-color: $brand-color-dark;
+    border-radius: 3px;
+    padding: 3px;
+    display: inline-block;
+    cursor: pointer;
+    color: $site-title-color;
+    svg {
+      fill: $site-title-color;
+      width: 18px;
+      height: 18px;
+    }
+  }
+  span {
+    order: 1;
+  }
+  #cookie-notice-dismiss {
+    border: none;
+    order: 4;
+  }
+  a {
+    order: 2;
+  }
+  #cookie-notice-accept {
+    order: 3;
+  }
+  button:hover {
+    background-color: $site-title-color;
+    color: $brand-color-dark;
+    transition-duration: 0.2s;
+    svg {
+      fill: $brand-color-dark;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .site-nav {
+    border: 2px solid $site-title-color;
+  }
+  #cookie-notice {
+    span {
+      width: calc(100% - 30px);
+      align-self: left;
+    }
+    #cookie-notice-dismiss {
+      border: none;
+      order: 2;
+      flex-break: after;
+    }
+    a {
+      order: 3;
+    }
+    #cookie-notice-accept {
+      order: 4;
+    }
+  }
 }
