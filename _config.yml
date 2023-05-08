@@ -67,7 +67,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: "https://f.lucy.moe/pb.jpg"
+      image: "https://lucy.moe/f/pb.jpg"
 locale: de_DE
 twitter:
   username: maidlucyvt
