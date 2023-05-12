@@ -55,6 +55,7 @@ custom_nav:
   - { url: "https://twitch.tv/maidlucy", name: Twitch }
   - { url: "https://www.youtube.com/@MaidLucy", name: YouTube }
   - { url: "https://twitter.com/maidlucyvt", name: Twitter }
+  - { url: "/artworks.html", name: Artworks }
 header_pages:
   - about.md
 

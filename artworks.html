@@ -1,0 +1,22 @@
+---
+layout: page
+title: Artworks & Credits
+description: This page lists all of the character art of MaidLucy.
+---
+
+<p>Nya, I like commissioning artworks of my OC MaidLucy, so here's all of her artworks:</p>
+
+{%- for item in site.data.commissions -%}
+    <div class="gallery-item{% if item.sensitive %} sensitive {% endif %}">
+        {% if item.sensitive %} <div id="center"><button class="spoiler-show">show sensitive content</button></div> {% endif %} 
+        <div class="sensitive-hidden">
+            <h3>{{item.headline}}</h3>
+            <a href="{{item.url}}"><img 
+                src="{{item.url}}"
+                alt="{{item.headline}}"
+            /></a>
+            <span class="credits post-meta"><a ref="{{item.artist_url}}">{{item.artist}}</a> on {{item.date | date_to_string}} </span>
+            {{item.text | markdownify}}
+        </div>
+    </div>
+{%- endfor -%}

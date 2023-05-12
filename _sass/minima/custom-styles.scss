@@ -1,6 +1,7 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
+// custom colors
 .site-header {
   border-top: 0;
   border-bottom: 0;
@@ -29,6 +30,45 @@ table {
   border: 0;
 }
 
+// for gallery
+.sensitive {
+  position: relative;
+  #center {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: grayscale(0.5) blur(40px);
+    .spoiler-show {
+      border-radius: 5px;
+      font-weight: 600;
+      border: 2px solid $site-title-color;
+      color: $site-title-color;
+      height: 2rem;
+      background-color: rgba($lm-brand-color, .4);
+    }
+    .spoiler-show:hover {
+      background-color: rgba($lm-brand-color, 1);
+    }
+  }
+}
+
+.gallery-item {
+  .credits {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin: 0.25rem 0;
+    a {
+      padding: 0 0.5rem;
+    }
+  }
+}
+
+// for cookie notice
 #cookie-notice {
   position: fixed;
   bottom: 0;
