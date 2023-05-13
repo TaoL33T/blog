@@ -15,7 +15,7 @@ description: This page lists all of the character art of MaidLucy.
                 src="{{item.url}}"
                 alt="{{item.headline}}"
             /></a>
-            <span class="credits post-meta"><a ref="{{item.artist_url}}">{{item.artist}}</a> on {{item.date | date_to_string}} </span>
+            <span class="credits post-meta"><a href="{{item.artist_url}}">{{item.artist}}</a> on {{item.date | date_to_string}} </span>
             {{item.text | markdownify}}
         </div>
     </div>
