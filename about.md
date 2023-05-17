@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about
 ...
 
 This site is generated using [Jekyll](https://jekyllrb.com/). 

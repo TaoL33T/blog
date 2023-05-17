@@ -4,6 +4,8 @@ author:
   email: blog@lucy.moe
   twitter: maidlucyvt
 
+permalink: /:categories/:year-:month-:day_:slug:output_ext
+
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
@@ -55,7 +57,7 @@ custom_nav:
   - { url: "https://twitch.tv/maidlucy", name: Twitch }
   - { url: "https://www.youtube.com/@MaidLucy", name: YouTube }
   - { url: "https://twitter.com/maidlucyvt", name: Twitter }
-  - { url: "/artworks.html", name: Artworks }
+  - { url: "/artworks", name: Artworks }
 header_pages:
   - about.md
 
