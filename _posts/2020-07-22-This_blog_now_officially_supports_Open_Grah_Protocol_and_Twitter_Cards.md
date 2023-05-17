@@ -1,10 +1,11 @@
 ---
 layout: post
-title: This blog now officially supports Open Grah Protocol and Twitter Cards
+title: This blog now officially supports Open Grah Protocol and Twitter Cards (old)
 date: 2020-07-22 10:55:04 +0200
 description: As the title suggests, I have now successfully integrated the Open Graph Protocol for Discord, WhatsApp and the likes. Of course, Twitter Cards also needed to be added as this is the main social network I still use.
 ---
 
+{% include old-site-notice.html %}
 
 As the title suggests, I have now successfully integrated the Open Graph Protocol for Discord, WhatsApp and the likes.
 Of course, Twitter Cards also needed to be added as this is the main social network I still use.
@@ -12,16 +13,16 @@ Of course, Twitter Cards also needed to be added as this is the main social netw
 Twitter Cards, if you didn't know, is this nice little card that is shown whenever you post a link to a webpage on twitter that does support OG.
 It looks something like this:
 
-<div style="text-align:center"><img width="100%" src="https://f.lucy.moe/m20V" alt="Twitter Card of lucy.moe"/></div>
+<div style="text-align:center"><img width="100%" src="https://lucy.moe/f/m20V" alt="Twitter Card of lucy.moe"/></div>
 
 Other applications do also support that.
 For example Discord:
 
-<div style="text-align:center"><img width="100%" src="https://f.lucy.moe/3dWf" alt="Discord Card of lucy.moe"/></div>
+<div style="text-align:center"><img width="100%" src="https://lucy.moe/f/3dWf" alt="Discord Card of lucy.moe"/></div>
 
 And also WhatsApp:
 
-<div style="text-align:center"><img width="100%" src="https://f.lucy.moe/nH5t" alt="WhatsApp Card of lucy.moe"/></div>
+<div style="text-align:center"><img width="100%" src="https://lucy.moe/f/nH5t" alt="WhatsApp Card of lucy.moe"/></div>
 
 I really wanted to have this, because it makes the webpage seem more professional to people scrolling by on a social media site.
 Just the blank link isn't very appealing at all in my opinion and so I had to implement it.
