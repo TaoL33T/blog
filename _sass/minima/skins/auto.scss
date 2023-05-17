@@ -17,11 +17,12 @@ $lm-brand-color-dark:      darken($lm-brand-color, 25%) !default;
 $lm-site-title-color:      $lm-brand-color-light !default;
 
 $lm-text-color:            #000000 !default;
+$lm-text-color-2:          lighten($lm-text-color, 35%);
 $lm-background-color:      #fdfdfd !default;
 $lm-code-background-color: #FFEFF7 !default;
 
-$lm-link-base-color:       lighten($lm-text-color, 35%) !default;
-$lm-link-visited-color:    darken($lm-link-base-color, 15%) !default;
+$lm-link-base-color:       $lm-brand-color !default;
+$lm-link-visited-color:    lighten($lm-link-base-color, 15%) !default;
 $lm-link-hover-color:      #FF65B5 !default;
 
 $lm-border-color-01:       $lm-brand-color !default;
@@ -115,12 +116,13 @@ $dm-brand-color-dark:      darken($dm-brand-color, 25%) !default;
 $dm-site-title-color:      #dddddd !default;
 
 $dm-text-color:            #dddddd !default;
+$dm-text-color-2:          darken($dm-text-color, 15%);
 $dm-background-color:      #101010 !default;
 $dm-code-background-color: #19000D !default;
 
-$dm-link-base-color:       lighten($dm-text-color, 15%) !default;
-$dm-link-visited-color:    darken($dm-link-base-color, 25%) !default;
-$dm-link-hover-color:      $dm-text-color !default;
+$dm-link-base-color:       $dm-brand-color-light !default;
+$dm-link-visited-color:    darken($dm-brand-color, 10%) !default;
+$dm-link-hover-color:      $dm-brand-color-light !default;
 
 $dm-border-color-02:       $dm-brand-color-dark !default;
 $dm-border-color-03:       $dm-brand-color-light !default;
@@ -219,6 +221,7 @@ $brand-color-dark: $lm-brand-color-dark;
 $site-title-color: $lm-site-title-color;
 
 $text-color: $lm-text-color;
+$text-color-2: $lm-text-color-2;
 $background-color: $lm-background-color;
 $code-background-color: $lm-code-background-color;
 
@@ -249,6 +252,7 @@ $table-border-color: $lm-table-border-color;
     --minima-site-title-color: #{$lm-site-title-color};
 
     --minima-text-color: #{$lm-text-color};
+    --minima-text-color-2: #{$lm-text-color-2};
     --minima-background-color: #{$lm-background-color};
     --minima-code-background-color: #{$lm-code-background-color};
 
@@ -278,6 +282,7 @@ $table-border-color: $lm-table-border-color;
       --minima-site-title-color: #{$dm-site-title-color};
 
       --minima-text-color: #{$dm-text-color};
+      --minima-text-color-2: #{$dm-text-color-2};
       --minima-background-color: #{$dm-background-color};
       --minima-code-background-color: #{$dm-code-background-color};
 
@@ -306,6 +311,7 @@ $table-border-color: $lm-table-border-color;
   $site-title-color: var(--minima-site-title-color);
 
   $text-color: var(--minima-text-color);
+  $text-color-2: var(--minima-text-color-2);
   $background-color: var(--minima-background-color);
   $code-background-color: var(--minima-code-background-color);
 
@@ -335,6 +341,7 @@ $table-border-color: $lm-table-border-color;
   $site-title-color: $dm-site-title-color;
 
   $text-color: $dm-text-color;
+  $text-color-2: $dm-text-color-2;
   $background-color: $dm-background-color;
   $code-background-color: $dm-code-background-color;
 
