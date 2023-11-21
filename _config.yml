@@ -54,12 +54,10 @@ minima:
 # order as they should show up.
 #
 custom_nav:
-  - { url: "https://twitch.tv/maidlucy", name: Twitch }
-  - { url: "https://www.youtube.com/@MaidLucy", name: YouTube }
-  - { url: "https://twitter.com/maidlucyvt", name: Twitter }
-  - { url: "/status", name: Status }
-  - { url: "/artworks", name: Artworks }
+  #- { url: "https://example.com", name: Example }
 header_pages:
+  - status.md
+  - artworks.html
   - about.md
 
 # Set to `true` to show excerpts on the homepage.

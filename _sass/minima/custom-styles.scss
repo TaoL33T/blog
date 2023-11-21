@@ -174,3 +174,33 @@ table {
     }
   }
 }
+
+// stolen from: https://codepen.io/rikschennink/pen/mjywQb
+.speech-bubble::before {
+  // layout
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 100%;
+  left: 1.5em; // offset should move with padding of parent
+  border: 1rem solid transparent;
+  border-top: none;
+
+  // looks
+  border-bottom-color: $background-color;
+  filter: drop-shadow(0 -0.095rem 0.0625rem $border-color-01);
+}
+.speech-bubble {
+  // layout
+  position: relative;
+  max-width: 30em;
+  
+  // looks
+  background-color: $background-color;
+  padding: 1.125em 1.5em;
+  font-size: 1.0rem;
+  border-radius: 1rem;
+  border: 0.0625rem solid $border-color-01;
+  box-shadow:	0.5rem 0.5rem 0.5rem $border-color-01;//, -0.125rem -0.125rem 0.125rem $border-color-01;
+}
