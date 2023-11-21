@@ -11,7 +11,7 @@ description: This page lists all of the character art of MaidLucy.
     <div class="gallery-item{% if item.sensitive %} sensitive {% endif %}">
         {% if item.sensitive %} <div id="center"><button class="spoiler-show">show sensitive content</button></div> {% endif %} 
         <div class="sensitive-hidden">
-            <h2 id="{{ item.headline | slugify: "latin" }}">{{item.headline}}</h3>
+            <h2 id="{{ item.headline | slugify: "latin" }}">{{item.headline}}</h2>
             <a href="{{item.url}}"><img 
                 src="{{item.url}}"
                 alt="{{item.headline}}"
