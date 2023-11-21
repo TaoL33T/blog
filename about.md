@@ -24,18 +24,28 @@ Oh and I reaaaally like cat girls! Nya~ 💕
 
 You can find me on these platforms:
 
+| Github     | [MaidLucy](https://github.com/maidlucy)           |
+| Mastodon   | <a rel="me" href="https://gervtuber.de/@maidlucy">@maidlucy@gervtuber.de</a> |
 | Twitch     | [MaidLucy](https://twitch.tv/maidlucy)            |
 | YouTube    | [MaidLucy](https://www.youtube.com/maidlucy)      |
+| Twitter    | <a href="https://twitter.com/maidlucyvt">@MaidLucyVT</a> |
 
 ## Contact
 
 If you would like to reach out to me, you can also find me here:
 
 | E-Mail     | [{{ site.author.email }}](mailto:{{ site.author.email }})               |
-| Github     | [MaidLucy](https://github.com/maidlucy)           |
-| Twitter    | <a href="https://twitter.com/maidlucyvt">@MaidLucyVT</a> |
-| Discord    | Lucy#1752                                         |
+| Discord    | @maidlucy |
 | anilist.co | [MaidLucy](https://anilist.co/user/MaidLucy)      |
+
+<div class="sensitive">
+    <div id="center"><button class="spoiler-show">It's a very bad idea to klick this.</button></div>
+    <div class="sensitive-hidden">
+        <h2 id="{{ "nsfw" | slugify: "latin" }}">NSFW</h2>
+        <p>Only look at this if you can handle unhinged horny.</p>
+        <table><tbody><tr> <td>Mastodon alt</td> <td> <a rel="me" href="https://girldick.gay/@lucy">@lucy@girldick.gay</a> </td> </tr></tbody></table>
+    </div>
+</div>
 
 # Privacy Policy
 
