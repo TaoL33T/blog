@@ -26,9 +26,11 @@ You can find me on these platforms:
 
 | Github     | [MaidLucy](https://github.com/maidlucy)           |
 | Mastodon   | <a rel="me" href="https://gervtuber.de/@maidlucy">@maidlucy@gervtuber.de</a> |
+| Blue Sky   | <a href="https://bsky.app/profile/maidlucyvt.bsky.social">@maidlucyvt.bsky.social</a> |
+| Twitter    | <a href="https://twitter.com/maidlucyvt">@MaidLucyVT</a> |
+| Throne Wishlist | [MaidLucy](https://throne.com/maidlucy) |
 | Twitch     | [MaidLucy](https://twitch.tv/maidlucy)            |
 | YouTube    | [MaidLucy](https://www.youtube.com/maidlucy)      |
-| Twitter    | <a href="https://twitter.com/maidlucyvt">@MaidLucyVT</a> |
 
 ## Contact
 
